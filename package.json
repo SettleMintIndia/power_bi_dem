@@ -1,0 +1,47 @@
+{
+  "name": "powerbi-embedded-sample",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "@azure/msal-browser": "^3.7.1",
+    "@azure/msal-react": "^2.0.10",
+    "@types/react": "^16.9.23",
+    "@types/react-dom": "^16.9.5",
+    "powerbi-client": "^2.22.4",
+    "react": "^16.13.0",
+    "react-app-polyfill": "^1.0.6",
+    "react-dom": "^16.13.0",
+    "typescript": "^5.3.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "lint": "eslint **/*.{ts,tsx} --quiet --fix"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^6.20.0",
+    "@typescript-eslint/parser": "^6.20.0",
+    "eslint": "^8.56.0",
+    "eslint-plugin-react": "^7.19.0",
+    "object-path": ">=0.11.5",
+    "react-scripts": "^5.0.1"
+  },
+  "overrides": {
+    "typescript": "^5.3.3"
+  }
+}
